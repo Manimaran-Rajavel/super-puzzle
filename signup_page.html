@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="E:\Super Puzzle Project\puzz_css.css">
+    <title>Rgister Form</title>
+</head>
+<body>
+    <div>
+    <div class="body">
+        <div>
+            <h1 class="login">Sign Up</h1>
+        </div>
+    <div class="container">    
+        <div>
+        Upload Photo<br>
+        <input class="input_file" id="photo" type="file">
+        </div>
+        <div>
+        <label>Firstname<span class="span">*</span></label><br>
+        <input class="input" id="firstname" type="text" placeholder="Firstname" required>
+        </div>
+        <div>
+        <label>Lastname<span class="span">*</span></label><br>
+        <input class="input" id="lastname" type="text" placeholder="Lastname" required>
+        </div>
+        <div>
+        <label>Date of Birth<span class="span">*</span></label><br>
+        <input class="input" id="dob" type="date" required>
+        </div>
+        <div>
+        <label>Gender</label>
+        <div>
+            <br>
+            <input type="radio" id="gendr" value="Male">Male
+            <input type="radio" id="gendr" value="Female">Female
+        </div>
+        </div>
+        <div>
+        <label>Email<span class="span">*</span></label><br>
+        <input class="input" id="email" type="email" name="" required>
+        </div>
+        <div>
+        <label>Phone no<span class="span">*</span></label><br>
+        <input class="input" id="phone" type="tel" name="" required>
+        </div>
+        <div>
+        <label>State<span class="span">*</span></label><br>
+        <input class="input" id="state" type="text" name="" required>
+        </div>
+        <div>
+        <label>District<span class="span">*</span></label><br>
+        <input class="input" id="district" type="text" name="" required>
+        </div>
+        <div>
+        <label>Create Password<span class="span">*</span></label><br>
+        <input class="input" id="password" type="password" name="" required>
+        </div>
+    </div>
+        <button class="subbutton" onclick="submit()">Submit</button>
+    </div>
+    </div>
+</body>
+<script src="puzzle_js.js"></script>
+</html>
