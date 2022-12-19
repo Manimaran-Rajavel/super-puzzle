@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login {
+    color: rgb(94, 93, 93);
+}
+
+.body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 15px;
+    background-image: linear-gradient(160deg, rgb(249, 121, 119), white); 
+}
+.heading{
+    color: darkslategray;
+}
+h3 {
+    color: rgb(78, 154, 24);
+}
+.btn {
+    border: none;
+    background-color: transparent;
+    color: rgb(56, 118, 242);
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+    font-size: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    
+    border-radius: 5px;
+    gap: 10px;
+}
+.input {
+    margin: 5px 0px;
+    height: 35px;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: powderblue;
+    background-color: rgb(251, 207, 203);
+}
+.button {
+    height: 35px;
+    margin: 5px;
+    background-color: rgb(79, 79, 249);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.subbutton {
+    height: 35px;
+    width: 60px;
+    margin: 5px;
+    background-color: rgb(79, 79, 249);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.subbutton:hover {
+    background-color: rgb(90, 144, 238);
+    color: rgb(8, 28, 36);
+}
+.tag{
+    text-decoration: none; 
+    color: rgb(91, 88, 238);
+}
+
+.button:hover {
+    background-color: rgb(90, 144, 238);
+    color: rgb(8, 28, 36);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    padding: 25px;
+    border-radius: 5px;
+    gap: 25px;
+}
+.contain {
+    display: flex;
+    width: 800px;
+    
+    flex-direction: column;
+    align-content: center;
+    padding: 15px;
+}
+.input_file {
+    margin: 0px 0px;
+    height:35px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.hide {
+    display: none;
+}
+.span{
+    color: red;
+}
+.profilpic {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+.container1 {
+    padding: 15px;
+    box-shadow: 5px 5px powderblue;
+    width: 280px;
+    height: 520px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+}
+.p {
+    padding: 10px;
+    font-size: large;
+}
+.admbutton {
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px rgb(81, 128, 81);
+    background-color: rgb(49, 198, 49);
+    padding: 10px;
+    cursor: pointer;
+}
+.admbutton:hover {
+    opacity: 0.8;
+    font-size: 35px;
+}
+.adminbut {
+    font-size: medium;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-family:cursive; color: rgb(252, 49, 49);
+}
+.adminbut:hover{
+    opacity: 0.8;
+    font-size: 15px;
+}
+
+/* puzzle page style sheet */
+.gamepagebgcolor{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding-top:15vh;
+    background-image: linear-gradient(120deg, powderblue, white) ;
+}
+
+#puzzlecontainer{
+    position: relative;
+    width: 385px;
+    height:390px;
+    border-radius:8px;
+    border:1px solid #29B6F6;
+}
+
+.puzzle{
+    position:absolute;
+    width:25%;
+    height:25%;
+    background-color: #1976D2;
+    color:#ECEFF1;
+    font-size:10vh;
+    font-weight:bold;
+    text-align:center;
+    padding-top:3%;
+    cursor: pointer;
+    user-select:none;
+    transition:left 0.3s,top 0.3s;
+}
+
+#difcontainer{
+
+    border-radius:8px;
+    margin-top:22px;
+}
+.difbutton{
+    color:#1976D2;
+    text-align:center;
+    font-size:22px;
+    font-weight:bold;
+    padding-top:5%;
+    margin:5px;
+    cursor: pointer;
+}
+.difbutton:hover{
+    opacity:0.8;
+    font-size:20px;
+}
+.difbutton.active{
+    background-color:inherit;
+    
+}
+.exit{
+    flex-grow:1;
+    background-color:inherit;
+    color: #1976D2;
+    text-align:center;
+    font-size:3vh;
+    font-weight:bold;
+    padding-top:5%;
+    margin:4px;
+    cursor: pointer;
+    transition:font-size 0.3s;
+    border: none;
+}
+.exit:hover{
+    opacity: 0.8;
+    font-size: 20px;
+}
