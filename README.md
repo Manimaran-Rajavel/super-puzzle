@@ -1,5 +1,5 @@
 # super-puzzle
-Simple User Login/Signup form with mini Puzzle Game.
+Simple responsive User Login/Signup form with mini Puzzle Game.
 
 Used Technologies:
 HTML5
